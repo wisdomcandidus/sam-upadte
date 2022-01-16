@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 222, 200);
+    padding: 3rem;
+}
+
+.footer{
+    background-color: white;
+    padding: 3rem 6rem;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .emusk div a{
+    text-decoration: none;
+    color: black;
+}
+.footer .emusk{
+    width: 400px;
+}
+
+.footer .emusk h2{
+    font-family: lemon;
+    padding: 1rem 0;
+}
+
+.footer .emusk h2 span{
+    color: #F28F0C;
+}
+
+.footer .emusk .sub-content h3{
+    font-family: lemon;
+    color: rgb(61, 61, 61);
+    padding:.5rem 0 ;
+    letter-spacing: 6px;
+}
+
+.footer .emusk .sub-content p{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.sum-com ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 520;
+}
+
+.community{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+.community .sum-com{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.community .sum-com h4{
+    color: #F28F0C;
+    text-align: left;
+    font-family: lemon;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding-left: 1rem;
+}
+
+.copy{
+    position: relative;
+    top: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 6rem;
+
+}
+
+.copy .copy-content{
+    width: 300px;
+}
+
+
+
+.copy .terms{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.copy a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 1rem;
+}

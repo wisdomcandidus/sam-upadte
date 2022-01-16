@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.LootBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loot-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.loot-content .loot{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 2rem 4rem;
+    margin: 2rem;
+}
+
+.loot-content .loot h2{
+    font-family: lemon;
+    padding: 1rem 0;
+    color: #F28F0C;
+}
+
+.loot-content .loot p{
+    font-size: 24px;
+    padding: 2rem 0;
+}
+
+.loot-content .loot a{
+    padding: 0.9rem 4rem;
+    background: #F28F0C;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.loot-sub img{
+    width: 500px;
+    padding:3rem 4rem;
+    margin: 1rem;
+}
+
+@media (max-width:500px) and (min-width:200px){
+    .loot-content .loot p{
+        font-size: 18px;
+        padding: 2rem 0;
+        font-family: roboto;
+    }
+
+    .loot-sub img{
+        width: 300px;
+        padding:3rem 1rem;
+    }
+
+    .loot-content .loot p{
+        font-size: 18px;
+        padding: 2rem 0;
+    }
+    .loot-content .loot{
+        width: 100%;
+        margin: 3rem 1rem;
+    }
+}

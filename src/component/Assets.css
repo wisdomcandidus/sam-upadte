@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.digital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3rem;
+    background: rgb(245, 243, 245);
+}
+
+.digital .digital-con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.digital .digital-con .sub img{
+    width: 500px;
+    padding: 2rem;
+}
+
+.digital .digital-con .sub-con1{
+    width: 500px;
+}
+
+.digital .digital-con .sub-con1 h2{
+    padding: 2rem 3rem;
+    font-family: lemon;
+    color: #F28F0C;
+}
+
+.digital .digital-con .sub-con1 p{
+    padding: 0 2rem;
+    margin: 2rem 1rem            ;
+    font-size: 24px;
+}
+
+.digital .digital-con .sub-con1 a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 3rem;
+    background: #F28F0C;
+    font-family: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}

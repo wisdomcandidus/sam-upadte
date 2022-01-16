@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.team{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 2rem;
+}
+
+.team-content{
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+    flex-wrap: wrap;
+}
+
+.team-content .team-icon{
+    margin: 1rem;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team h2{
+    font-family: lemon;
+    color: #F28F0C;
+    padding: 2rem;
+}
+.team-content .team-icon img{
+    width: 100px;
+}
+
+.team-content .team-icon h3{
+    padding: 1rem 0;
+    font-family: lemon;
+    color: rgb(14, 97, 129);
+}
+
+.team-content .team-icon p{
+    font-size: 18px;
+    font-family: leckerli;
+}
+

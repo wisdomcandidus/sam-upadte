@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.Header{
+    width: 100%;
+    background: whitesmoke;
+    position: fixed;
+    z-index: 50;
+}
+
+.logo{
+    padding: 1rem 2rem;
+}
+.Header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header nav h2{
+    font-family:lemon;
+    font-size: 32px;
+}
+
+.Header nav h2 span{
+    font-family: lemon;
+    font-size: 32px;
+    color: #F28F0C;
+}
+
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+
+.a-tag{
+    text-decoration: none;
+    color: #F28F0C;
+    font-weight:600;
+}
+
+.header-content ul{
+    display: flex;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+
+
+.social-icons a{
+    padding: 1rem 0rem;
+    color: #F28F0C;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ham-content{
+    display: none;
+}
+.nav-bar{
+    position: absolute;
+    background:whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    width: 200px;
+    top: 72px;
+    height: 100vh;
+    right: 0;
+    visibility: hidden;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #F28F0C;
+}
+
+.nav-bar ul li a span{
+    margin: 0rem 1rem;
+}
+
+@media (max-width:900px) and (min-width:700px) {
+    .Header nav h2{
+        font-size: 24px;
+    }
+
+    .Header nav h2 span{
+        font-family: lemon;
+        font-size: 24px;
+        color: #F28F0C;
+    }
+
+    ul li{
+        list-style: none;
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width:700px) and (min-width: 500px) {
+    .header-content{
+        display:none;
+    }
+
+    .social-icons{
+        display: none;
+    } 
+
+    
+    .ham-content{
+        width: 100%;
+    }
+
+    .all-items{
+        width: 100%;
+        position: absolute;
+        right: 0;
+       
+    }
+    .menu{
+        width: 250px;
+        height: 100vh;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 4rem;
+        position: absolute;
+        transition: all 1s ease-in;
+        right: -300px;
+       
+    }
+    .menu > ul li{
+        margin: 1rem;
+        font-size: 18px;
+        list-style: none;
+    }
+    
+    .menu > ul li a{
+        text-decoration: none;
+        color: #F28F0C;
+        font-weight: 500;
+    }
+    
+    
+    .ham-content{
+        width: 100%;
+        height: 60px;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: right;
+        position: relative;
+        padding:  0.5rem 2rem;
+        z-index: 4;
+    }
+    
+    
+    .check{
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        z-index: 3;
+        opacity: 0;
+        right: 0;
+        cursor: pointer;
+    }
+    
+     .ham{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45px;
+        height: 45px;
+        z-index: 2;
+        /* background: cornflowerblue; */
+    }
+    
+    .ham div{
+        position: relative;
+        flex: none;
+        width: 40px;
+        height: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F28F0C;
+        transition: all 0.5s ease-in-out;
+    }
+    
+     .ham div::after{
+        content: '';
+        width: 40px;
+        height: 4px;
+        background: inherit;
+        position: absolute;
+        top: 10px;
+    }
+    .ham div::before{
+        content: '';
+        width: 40px;
+        height: 4px;
+        background: inherit;
+        position: absolute;
+        top: -10px;
+    }
+    
+    .check:checked + .ham > div{
+        top: 0;
+        left: 0;
+        transform: rotate(45deg);
+    }
+    
+    .check:checked + .ham > div::before{
+        top: 0;
+        transform: rotate(90deg);
+    } 
+    
+    .check:checked + .ham > div::after{
+        top: 0;
+        transform: rotate(-90deg);
+    }
+    
+    .check:checked ~ .all-items > .menu{
+        right: 0;
+    }
+    
+    
+    
+
+    
+    .Header{
+        width: 100%;
+        background: whitesmoke;
+        position: fixed;
+        z-index: 50;
+    }
+
+    .logo{
+        padding: 1rem 2rem;
+    }
+    .Header nav h2{
+        font-size: 16px;
+    }
+    .Header nav h2 span{
+        font-size: 16px;
+    }
+.header-content ul li{
+    padding: 0.5rem;
+}
+
+    .header-content ul li a{
+        font-size: 14px;
+    }
+
+}
+    
+@media (max-width:500px) and (min-width:200px){
+        .Header nav h2{
+            font-size: 16px;
+        }
+    
+        .Header nav h2 span{
+            font-family: lemon;
+            font-size: 16px;
+            color: #F28F0C;
+        }
+
+        .check{
+            padding: 2rem 2rem;
+        }
+
+        .ham{
+            padding: 2rem 2rem;
+        }
+
+        .Header{
+            width: 100%;
+            background: whitesmoke;
+            position: fixed;
+            z-index: 50;
+        }
+  }
+

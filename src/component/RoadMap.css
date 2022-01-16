@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.roadmap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(245, 243, 245);
+    padding: 2rem;
+}
+
+.road{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(245, 243, 245);
+    padding: 1rem;
+}
+
+.roadmap h2{
+    padding: 2rem;
+    font-family: lemon;
+    color: #F28F0C;
+}
+
+.content-roadmap{
+    width: 500px;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 0px 1.5px rgb(143, 143, 143);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+.content-roadmap .imag img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.road-content{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    /* align-items: center; */
+    flex-wrap:wrap;
+    width: 60%;
+    margin:2rem
+}
+
+.road-content h3{
+    font-family: lemon;
+    color: #F28F0C;
+    font-size: 24px;
+}
+
+
+.road-content ul{
+    
+    display: flex;
+    justify-content: left;
+  align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.road-content ul li{
+    list-style: disc;
+    padding: 1rem;
+    width: 300px;
+}

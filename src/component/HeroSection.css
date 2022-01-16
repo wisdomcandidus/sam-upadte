@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30px;
+
+    padding: 5rem;
+}
+
+.hero-content{
+    width: 509px;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-family: lemon;
+    color: rgb(37, 2, 22);
+}
+
+.hero-content p{
+    font-size: 28px;
+    padding: 2rem 0;
+    font-family: roboto;
+}
+.img img{
+    width: 500px;
+    height: 500px;
+    margin: 4rem 0;
+}
+
+.button-section a{
+    text-decoration: none;
+    color: white;
+    background: #F28F0C;
+    padding:1rem 2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+@media (max-width:500px) and (min-width:200px){
+    .hero-section{
+        padding: 4rem 1rem;
+    }
+
+    .hero-content, .img{
+        width: 300px;
+    }
+
+    .hero-content h1{
+        font-size: 24px;
+        font-family: lemon;
+        color: rgb(37, 2, 22);
+    }
+
+    .hero-content p{
+        font-size: 18px;
+        padding: 2rem 0;
+        font-family: roboto;
+    }
+
+    .img img{
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    .button-section a{
+        text-decoration: none;
+        color: white;
+        background: #F28F0C;
+        padding:1rem 1rem;
+        font-weight: 600;
+        border-radius: 10px;
+        font-size: 18px;
+    
+    }
+}

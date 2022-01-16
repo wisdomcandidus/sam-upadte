@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-content{
+    width: 100%;
+    height: 100vh;
+    background: rgb(245, 243, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+}
+
+.section-content .content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 700px;
+}
+
+.head h2{
+    font-size: 32px;
+    font-family: lemon;
+    padding: 2rem;
+}
+
+.head p{
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.holders{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+
+.holders .holder-content h3{
+    font-size: 26px;
+    padding: 2rem;
+    color: tomato;
+    font-weight: 700;
+    font-family: lemon;
+}
+
+.holders .holder-content p{
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.holder-content1 h3{
+    font-size: 26px;
+    padding: 2rem;
+    color: rgb(71, 187, 255);
+    font-weight: 700;
+    font-family: lemon;
+}
+
+.holder-content1 p{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+@media (max-width:500px) and (min-width:200px){
+    .section-content{
+        width: 100%;
+        height: 100%;
+        background: rgb(245, 243, 245);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .section-content .content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 700px;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .head h2{
+        font-size: 24px;
+        font-family: lemon;
+        padding: 1rem 0;
+    }
+    
+    .head p{
+        font-weight: 500;
+        font-size: 18px;
+        padding: 0 1rem;
+    }
+    
+    .holders{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    
+    
+    .holders .holder-content h3{
+        font-size: 18px;
+        padding: 2rem 1rem;
+        color: tomato;
+        font-weight: 700;
+        font-family: lemon;
+    }
+    
+    .holders .holder-content p{
+        font-weight: 600;
+        font-size: 18px;
+    
+    }
+    
+    .holder-content1 h3{
+        font-size: 18px;
+        padding: 2rem;
+        color: rgb(71, 187, 255);
+        font-weight: 700;
+        font-family: lemon;
+    }
+    
+    .holder-content1 p{
+        font-weight: 600;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Leckerli+One&family=Lemon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center  ;
+    align-items: center;
+}
+
+.sec-content .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:2rem;
+}
+
+.sec-content .content .sub-content img{
+    width: 500px;
+    height: 500px;
+    padding: 3rem;
+}
+
+.sec-content .content .sub-con h2{
+    width: 500px;
+    font-family: lemon;
+    color: #F28F0C;
+    padding: 2rem 3rem;
+
+}
+
+.sec-content .content .sub-con p{
+    width: 500px;
+    padding: 2rem 3rem;
+    font-size: 24px;
+}
+
+.sec-content .content .sub-con .export{
+    margin: 2rem 2rem;
+}
+
+.sec-content .content .sub-con .export a{
+    text-decoration: none;
+    font-size: leckerli;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin:1rem ;
+    padding: 1rem 3rem;
+    background:#F28F0C;
+    border-radius: 10px;
+
+}
+
+.build{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+@media (max-width:500px) and (min-width:200px){
+    .sec-content .content{
+        padding:2rem;
+    }
+
+    .sec-content .content .sub-con .export{
+        padding: 1rem 1rem;
+    }
+
+    .sec-content .content .sub-con p{
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 18px;
+    }
+
+    .sec-content .content .sub-content img{
+        width: 300px;
+        height: 500px;
+        padding: 3rem 1rem;
+    }
+
+    .sec-content .content .sub-con h2{
+        width: 100%;
+        font-family: lemon;
+        color: #F28F0C;
+        font-size: 24px;
+        padding: 2rem 3rem;
+    
+    }
+   
+}
