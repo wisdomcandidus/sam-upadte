@@ -17,7 +17,7 @@ const assets = () => {
                             Explore a whole world of in-game items through Altura's NFT marketplace.
                              It is also the most powerful NFT minting platform.
                         </p>
-                        <a href="https://www.emusk.eu/" target='_blank'>Explore marketplace</a>
+                        <a href="https://www.emusk.eu/" target='_blank' rel ='noreferrer'>Explore marketplace</a>
                     </div>
                 </div>
             </section>
