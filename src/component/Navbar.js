@@ -69,32 +69,53 @@ const Navbar = () => {
                               <a href="http://localhost:3000/" className="a-tag">Community</a> 
                            </li>
                            <li className="lists">
-                              <a href="http://localhost:3000/" className="a-tag">Contact</a> 
+                              <a href="" className="a-tag">Contact</a> 
                            </li>
-                       </ul>
-                
-                       <ul class="social-icons">
-                        <li>
-                            <a href="http://localhost:3000/"><i className="fab fa-telegram"></i>
+                           <li>
+                            <a href=""><i className="fab fa-telegram"></i>
                              <span>Telegram</span>
                             </a>
                         </li>
                         <li>
-                            <a href="http://localhost:3000/">
+                            <a href="">
                                 <i className="fab fa-twitter"> <span>Twitter</span></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://localhost:3000/">
+                            <a href="">
                                 <i className="fab fa-discord"> <span>Discord</span></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://localhost:3000/">
+                            <a href="">
                                 <i className="fab fa-reddit"> <span>Reddit</span></i>
                             </a>
                         </li>
+                           
                        </ul>
+                
+                       {/* <ul class="social-icons">
+                        <li>
+                            <a href=""><i className="fab fa-telegram"></i>
+                             <span>Telegram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i className="fab fa-twitter"> <span>Twitter</span></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i className="fab fa-discord"> <span>Discord</span></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i className="fab fa-reddit"> <span>Reddit</span></i>
+                            </a>
+                        </li>
+                       </ul> */}
                     </div>
                 </div>
         </div>

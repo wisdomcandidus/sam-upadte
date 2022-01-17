@@ -359,6 +359,9 @@ ul li{
             z-index: 4;
         }
         
+        .menu ul li a span{
+            padding: 0 0.5rem;
+        }
         
         .check{
             position: absolute;

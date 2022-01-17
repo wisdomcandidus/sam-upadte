@@ -13,7 +13,7 @@ const LootBox = () => {
                             We want to create truly random loot boxes on the blockchain 
                             that drop NFTs with varying rarities when they are unlocked.
                         </p>
-                        <a href="http://localhost:3000/">Explore</a>
+                        <a href="https://www.emusk.eu/">Explore</a>
                     </div>
 
                     <div className="loot-sub">

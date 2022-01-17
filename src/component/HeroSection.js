@@ -14,7 +14,7 @@ const Hero_section = () => {
                         The Metaverse
                     </p>
                     <div className="button-section">
-                        <a href="http://google.com">Explore marketplace</a>
+                        <a href="https://www.emusk.eu/" target='_blank'>Explore marketplace</a>
                     </div>
                 </div>
 
