@@ -85,12 +85,16 @@
         text-align: center;
         padding: 1rem;
     }
-    
+    .content{
+        width: 100%;
+        padding: 0.5rem;
+    }
+
     .section-content .content{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 700px;
+        width: 100%;
     }
 
     .head{
@@ -98,19 +102,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
 
     }
     
     .head h2{
-        font-size: 24px;
+        font-size: 18px;
         font-family: lemon;
         padding: 1rem 0;
     }
     
     .head p{
         font-weight: 500;
-        font-size: 18px;
-        padding: 0 1rem;
+        width: 100%;
+        font-size: 14px;
     }
     
     .holders{
@@ -121,21 +126,23 @@
     
     
     .holders .holder-content h3{
-        font-size: 18px;
+        font-size: 14px;
         padding: 2rem 1rem;
         color: tomato;
         font-weight: 700;
         font-family: lemon;
     }
+
+   
     
     .holders .holder-content p{
         font-weight: 600;
-        font-size: 18px;
+        font-size: 14px;
     
     }
     
     .holder-content1 h3{
-        font-size: 18px;
+        font-size: 14px;
         padding: 2rem;
         color: rgb(71, 187, 255);
         font-weight: 700;
@@ -144,6 +151,6 @@
     
     .holder-content1 p{
         font-weight: 600;
-        font-size: 18px;
+        font-size: 14px;
     }
 }

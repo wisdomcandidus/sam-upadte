@@ -68,17 +68,37 @@
         font-family: roboto;
     }
 
+    .loot-sub{
+        margin: 0 1rem;
+    }
+
     .loot-sub img{
         width: 300px;
         padding:3rem 1rem;
     }
 
-    .loot-content .loot p{
+    .loot-content .loot h2{
+        font-family: lemon;
+        padding: 1rem 0;
+        color: #F28F0C;
         font-size: 18px;
-        padding: 2rem 0;
     }
+   
     .loot-content .loot{
+        display: flex;
         width: 100%;
-        margin: 3rem 1rem;
+        margin: 0rem 1rem;
+        padding: 0 1rem;
+    }
+
+    .loot-content .loot a{
+        padding: 0.9rem 6rem;
+        background: #F28F0C;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 600;
+        width: 80%;
+        border-radius: 10px;
     }
 }

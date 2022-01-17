@@ -69,16 +69,17 @@
 
 @media (max-width:500px) and (min-width:200px){
     .sec-content .content{
-        padding:2rem;
+        padding:1rem;
     }
 
     .sec-content .content .sub-con .export{
-        padding: 1rem 1rem;
+        width: 100%;
+        padding: 1rem 0rem;
     }
 
     .sec-content .content .sub-con p{
         width: 100%;
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         font-size: 18px;
     }
 
@@ -92,9 +93,29 @@
         width: 100%;
         font-family: lemon;
         color: #F28F0C;
-        font-size: 24px;
-        padding: 2rem 3rem;
+        font-size: 18px;
+        padding: 1rem 1rem;
     
     }
    
+    .sec-content .content .sub-con .export a{
+        text-decoration: none;
+        font-size: leckerli;
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        width: 100%;
+        /* padding: 1rem 2rem; */
+        background:#F28F0C;
+        border-radius: 10px;
+    
+    }
+
+    .sub-con{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }

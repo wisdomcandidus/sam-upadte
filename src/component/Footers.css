@@ -21,7 +21,7 @@
 
 .footer{
     background-color: white;
-    padding: 3rem 6rem;
+    padding: 3rem 3rem;
     width: 85%;
     height: 100%;
     display: flex;
@@ -34,7 +34,7 @@
     color: black;
 }
 .footer .emusk{
-    width: 400px;
+    width: 350px;
 }
 
 .footer .emusk h2{
@@ -66,7 +66,7 @@
 }
 
 .community{
-    width: 400px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -102,7 +102,7 @@
 }
 
 .copy .copy-content{
-    width: 300px;
+    width: 50%;
 }
 
 
@@ -117,4 +117,66 @@
     color: black;
     font-weight: 600;
     padding: 1rem;
+}
+
+@media (max-width:900px) and (min-width:500px){
+    .footer{
+        background-color: white;
+        padding: 3rem 1rem;
+        width: 85%;
+        height: 100%;
+        display: flex;
+    }
+
+    .footers{
+        padding: 2rem 0;
+    }
+
+    .copy{
+        display: flex;
+        padding-left:3rem;
+        width: 100%;
+    }
+
+    .copy .terms{
+        width: 50%;
+        display: flex;
+    }
+   
+}
+
+@media (max-width:500px) and (min-width:200px){
+    .footer{
+        background-color: white;
+        padding: 3rem 1rem;
+        width: 85%;
+        height: 100%;
+    }
+
+    .footers{
+        padding: 2rem 0;
+    }
+
+.copy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-left: 3rem;
+}
+
+.copy-content{
+    width: 100%;
+}
+
+    .community{
+        width: 100%;
+    }
+
+    .copy .terms{
+        display: flex;
+
+    }
 }
