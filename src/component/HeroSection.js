@@ -3,7 +3,7 @@ import logo from './image/crypto.png'
 const Hero_section = () => {
     return (
         <div>
-            <main className="hero-section">
+            <main className="hero-section" id='Emusk'>
                 <div className="hero-content">
                     <h1>
                         POWERING THE FUTURE OF GAMING
@@ -14,7 +14,7 @@ const Hero_section = () => {
                         The Metaverse
                     </p>
                     <div className="button-section">
-                        <a href="https://www.emusk.eu/" target='_blank' rel ='noreferrer'>Explore marketplace</a>
+                        <a href="https://www.emusk.eu/">Explore marketplace</a>
                     </div>
                 </div>
 

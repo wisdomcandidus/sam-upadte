@@ -2,7 +2,7 @@
 const Section = () => {
     return (
         <div>
-            <section className="section-content">
+            <section className="section-content" id="Section">
                 <div className="content">
                     <div className="head">
                         <h2>Building the future of NFT's</h2>

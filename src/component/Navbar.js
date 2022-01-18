@@ -5,25 +5,27 @@ const Navbar = () => {
         <div>
             <header className="Header">
                 <nav>
-                    <div className="logo">
+                    <div className="logo" >
+                        <a href="#Emusk">
                         <h2>
                             E<span>Musk</span>
                         </h2>
+                        </a>
                     </div>
 
                     <div className="header-content" id="head">
                         <ul>
                             <li className="lists">
-                             <a href="http://localhost:3000/" className="a-tag">Road Map </a> 
+                             <a href="#Road" className="a-tag">Road Map </a> 
                             </li>
                             <li className="lists">
-                               <a href="http://localhost:3000/" className="a-tag">Blog</a> 
+                               <a href="#Section" className="a-tag">Blog</a> 
                             </li>
                             <li className="lists">
-                               <a href="http://localhost:3000/" className="a-tag">Community</a> 
+                               <a href="#Footer" className="a-tag">Community</a> 
                             </li>
                             <li className="lists">
-                               <a href="http://localhost:3000/" className="a-tag">Contact</a> 
+                               <a href="#Team" className="a-tag" >Team</a> 
                             </li>
                         </ul>
                     </div>
@@ -31,20 +33,20 @@ const Navbar = () => {
                     <div className="social-icons">
                        <ul>
                            <li>
-                               <a href="http://localhost:3000/"><i className="fab fa-telegram"></i></a>
+                               <a href="/"><i className="fab fa-telegram"></i></a>
                            </li>
                            <li>
-                               <a href="http://localhost:3000/">
+                               <a href="/">
                                    <i className="fab fa-twitter"></i>
                                </a>
                            </li>
                            <li>
-                               <a href="http://localhost:3000/">
+                               <a href="/">
                                    <i className="fab fa-discord"></i>
                                </a>
                            </li>
                            <li>
-                               <a href="http://localhost:3000/">
+                               <a href="/">
                                    <i className="fab fa-reddit"></i>
                                </a>
                            </li>
@@ -60,38 +62,37 @@ const Navbar = () => {
                     <div class="menu">
                        <ul>
                         <li className="lists">
-                            <a href="http://localhost:3000/" className="a-tag">Road Map </a> 
+                            <a href="#Road" className="a-tag">Road Map </a> 
                            </li>
                            <li className="lists">
-                              <a href="http://localhost:3000/" className="a-tag">Blog</a> 
+                              <a href="#Section" className="a-tag">Blog</a> 
                            </li>
                            <li className="lists">
-                              <a href="http://localhost:3000/" className="a-tag">Community</a> 
+                              <a href="#Fo0ter" className="a-tag">Community</a> 
                            </li>
                            <li className="lists">
-                              <a href="http://localhost:3000/" className="a-tag">Contact</a> 
+                              <a href="#Team" className="a-tag">Team</a> 
                            </li>
                            <li>
-                            <a href="http://localhost:3000/"><i className="fab fa-telegram"></i>
+                            <a href="/"><i className="fab fa-telegram"></i>
                              <span>Telegram</span>
                             </a>
                         </li>
                         <li>
-                            <a href="http://localhost:3000/">
+                            <a href="/">
                                 <i className="fab fa-twitter"> <span>Twitter</span></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://localhost:3000/">
+                            <a href="/">
                                 <i className="fab fa-discord"> <span>Discord</span></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://localhost:3000/">
+                            <a href="/">
                                 <i className="fab fa-reddit"> <span>Reddit</span></i>
                             </a>
                         </li>
-                           
                        </ul>
                 
                        {/* <ul class="social-icons">
@@ -116,9 +117,13 @@ const Navbar = () => {
                             </a>
                         </li>
                        </ul> */}
+            
                     </div>
                 </div>
         </div>
+                <div className='market'>
+                    <a href="https://www.emusk.eu/">Market place</a>
+                </div>
                 </nav>
             </header>
         </div>

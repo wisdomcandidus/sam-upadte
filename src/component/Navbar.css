@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -99,10 +104,42 @@ ul li{
     margin: 0rem 1rem;
 }
 
+.market{
+    padding: 1rem 3rem;
+    background-color: #F28F0C;
+    margin: 0 2rem; 
+    border-radius: 10px;
+}
+
+.market a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+@media (min-width:900px) and (max-width:1100px) {
+    .Header nav h2{
+        font-size: 20px;
+    }
+
+    .Header nav h2 span{
+        font-size: 20px;
+    }
+    ul li{
+        list-style: none;
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+}
+
 @media (max-width:900px) and (min-width:700px) {
     .Header nav h2{
         font-size: 24px;
     }
+
+.market{
+    display: none;
+}
 
     .Header nav h2 span{
         font-family: lemon;
@@ -115,11 +152,28 @@ ul li{
         font-size: 14px;
         padding: 0.5rem;
     }
+
+    .market{
+        padding: 1rem 2rem;
+        background-color: #F28F0C;
+        margin: 0 1rem; 
+        border-radius: 10px;
+    }
+    
+    .market a{
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+    }
 }
 
 @media (max-width:700px) and (min-width: 500px) {
     .header-content{
         display:none;
+    }
+
+    .market{
+        display: none;
     }
 
     .social-icons{
@@ -273,6 +327,19 @@ ul li{
 
     .header-content ul li a{
         font-size: 14px;
+    }
+
+    .market{
+        padding: 1rem 3rem;
+        background-color: #F28F0C;
+        margin: 0 2rem; 
+        border-radius: 10px;
+    }
+    
+    .market a{
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
     }
 
 }
@@ -438,9 +505,6 @@ ul li{
         }
         
         
-        
-    
-        
         .Header{
             width: 100%;
             background: whitesmoke;
@@ -468,6 +532,18 @@ ul li{
         
 .logo{
     padding: 1rem 1rem;
+}
+.market{
+    padding: 1rem 3rem;
+    background-color: #F28F0C;
+    margin: 0 2rem; 
+    border-radius: 10px;
+}
+
+.market a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
 }
     
   }

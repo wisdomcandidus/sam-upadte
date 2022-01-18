@@ -7,7 +7,7 @@ import arrow from './image/arrow.svg'
 const RoadMap = () => {
     return (
         <div>
-            <section className="roadmap">
+            <section className="roadmap" id='Road'>
                     <h2>RoadMap</h2>
                 <div className="road">
                     <div className="content-roadmap">

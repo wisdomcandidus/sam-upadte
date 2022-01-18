@@ -3,7 +3,7 @@
 const Footers = () => {
     return (
         <div>
-            <footer className="footers">
+            <footer className="footers" id="Footer">
                 <div className="footer">
                     <div className="emusk">
                         <div> <a href='http://localhost:3000/'><h2>E<span>Musk</span></h2> </a></div>

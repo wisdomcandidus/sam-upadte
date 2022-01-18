@@ -6,7 +6,7 @@ import miles from './image/miles.png'
 const Team = () => {
     return (
         <div>
-            <section className="team">
+            <section className="team" id='Team'>
                    <h2>Meet the team</h2>
                 <div className="team-content">
                     <div className="team-icon">

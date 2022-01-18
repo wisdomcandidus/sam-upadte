@@ -3,7 +3,7 @@ import digi from './image/letter.png'
 const assets = () => {
     return (
         <div>
-            <section className="digital">
+            <section className="digital" id='Assets'>
                 <div className="digital-con">
                     <div className="sub">
                         <img src={digi} alt="" />

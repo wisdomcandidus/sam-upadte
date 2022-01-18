@@ -16,7 +16,7 @@ const SecSection = () => {
                             Smart NFTs have properties that can change based on certain conditions.
                             </p>
                         <div className="export">
-                            <a href="http://localhost:3000/">Build a smart NFTs</a>
+                            <a href="https://www.emusk.eu/">Build a smart NFTs</a>
                         </div>
                     </div>
                 </div>
